@@ -137,7 +137,14 @@ footer p {
   padding: 20px;
 }
 
-footer section .fIcons svg{
-  display: inline-block;
-  margin-block: 10rem;
+.fIcons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.image {
+  margin-inline: 10px;
 }
