@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+  background-image: url("/images/bg-header-mobile.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: 18px;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+.container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #62676B;
+  padding: 20px;
+  margin-block-start: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-block-end: 45px;
+}
+
+p {
+  font-size: 20px;
+  padding-block: 30px;
+  line-height: 1.75rem;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.btn a {
+  display: block;
+  text-decoration: none;
+}
+
+.btn a button {
+  color: white;
+  border-radius: 45px;
+  padding: 20px;
+  font-size: 22px;
+  margin-block: 10px;
+  width: 90%;
+  border: 0;
+}
+
+.btn a .btn1 {
+  background-color: #26BBA5;
+  border-bottom: 4px solid #16A691;
+}
+
+.btn a .btn2 {
+  background-color: #6174FF;
+  border-bottom: 4px solid #4757D0;
+}
+
+.btn a button:active {
+  border: 0;
+}
+
+
+.s1 {
+  margin-top: 10rem;
+  margin-bottom: 0;
+}
+
+.s1 h1 {
+  margin: 20px;
+  font-size: 32px;
+}
+
+.s1 p {
+  padding-top: 0;
+}
+
+.imagePC {
+  margin-block: 20px;
+}
+
+section article svg {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+section article h2 {
+  margin-bottom: 10px;
+}
+
+section .s1 .sLogos .imgL {
+  display: grid;
+  place-items: center;
+}
+
+.imgL {
+  padding: 30px;
+}
+
+
+footer {
+  background-color: #EAEAEA;
+  display: grid;
+  place-items: center;
+}
+
+footer img {
+  margin-block-start: 2rem;
+  width: 50%;
+}
+
+footer p {
+  color: #62676B;
+  padding: 20px;
+}
+
+footer section .fIcons svg{
+  display: inline-block;
+  margin-block: 10rem;
+}
