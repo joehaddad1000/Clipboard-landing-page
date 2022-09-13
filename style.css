@@ -59,13 +59,9 @@ p {
   margin-top: 10px;
 }
 
-.btn .btn1 a, .btn .btn2 a{
-  display: block;
-  text-decoration: none;
-  color: white;
-}
 
 .btn .btn1, .btn .btn2{
+  color: white;
   border-radius: 45px;
   padding: 20px;
   font-size: 22px;
