@@ -17,8 +17,13 @@ body {
   font-family: 'Bai Jamjuree', sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 600;
+}
+
+img {
+  width: 100%;
 }
 
 .attribution {
@@ -60,7 +65,8 @@ p {
 }
 
 
-.btn .btn1, .btn .btn2{
+.btn .btn1,
+.btn .btn2 {
   color: white;
   border-radius: 45px;
   padding: 20px;
@@ -73,8 +79,9 @@ p {
   background-color: #26BBA5;
   border-bottom: 4px solid #16A691;
 }
+
 .btn .btn1:active {
-    background-color: #26BBA5BA;
+  background-color: #26BBA5BA;
 }
 
 .btn .btn2 {
@@ -82,11 +89,11 @@ p {
   border-bottom: 4px solid #4757D0;
 }
 
-.btn .btn2:acive{
+.btn .btn2:acive {
   background-color: #6174FFBA;
 }
 
-.btn button:active{
+.btn button:active {
   border: 0;
 }
 
