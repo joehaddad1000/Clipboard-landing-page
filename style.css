@@ -59,13 +59,13 @@ p {
   margin-top: 10px;
 }
 
-.btn a {
+.btn .btn1 a, .btn .btn2 a{
   display: block;
   text-decoration: none;
+  color: white;
 }
 
-.btn a button {
-  color: white;
+.btn .btn1, .btn .btn2{
   border-radius: 45px;
   padding: 20px;
   font-size: 22px;
@@ -73,24 +73,24 @@ p {
   border: 0;
 }
 
-.btn a .btn1 {
+.btn .btn1 {
   background-color: #26BBA5;
   border-bottom: 4px solid #16A691;
 }
-.btn a .btn1:active {
+.btn .btn1:active {
     background-color: #26BBA5BA;
 }
 
-.btn a .btn2 {
+.btn .btn2 {
   background-color: #6174FF;
   border-bottom: 4px solid #4757D0;
 }
 
-.btn a .btn2:active {
+.btn .btn2:acive{
   background-color: #6174FFBA;
 }
 
-.btn a button:active {
+.btn button:active{
   border: 0;
 }
 
