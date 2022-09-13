@@ -17,6 +17,10 @@ body {
   font-family: 'Bai Jamjuree', sans-serif;
 }
 
+h1, h2 {
+  font-weight: 600;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -46,6 +50,7 @@ body {
 
 p {
   font-size: 20px;
+  font-weight: 400;
   padding-block: 30px;
   line-height: 1.75rem;
 }
@@ -65,7 +70,6 @@ p {
   padding: 20px;
   font-size: 22px;
   margin-block: 10px;
-  width: 90%;
   border: 0;
 }
 
@@ -73,10 +77,17 @@ p {
   background-color: #26BBA5;
   border-bottom: 4px solid #16A691;
 }
+.btn a .btn1:active {
+    background-color: #26BBA5BA;
+}
 
 .btn a .btn2 {
   background-color: #6174FF;
   border-bottom: 4px solid #4757D0;
+}
+
+.btn a .btn2:active {
+  background-color: #6174FFBA;
 }
 
 .btn a button:active {

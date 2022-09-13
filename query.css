@@ -1,0 +1,106 @@
+@media all and (min-width: 767.99px) {
+  body {
+    background-image: url("/images/bg-header-desktop.png");
+    min-height: 100vh;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  p {
+    margin-inline: 20%;
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn a .btn1,
+  .btn a .btn2 {
+    margin-inline: 5px;
+    font-size: 20px;
+  }
+
+  .s-queries {
+    margin-top: 20px;
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+  }
+
+  .imagePC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -100px;
+    max-width: 65%;
+    height: 25%;
+
+  }
+
+  .s-articles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex: 3;
+    text-align: left;
+    align-content: center;
+    justify-content: left;
+  }
+
+  .s-articles h1 {
+    font-size: 24px;
+    padding-block-end: 0;
+  }
+
+  .s-articles p {
+    padding-block: 0;
+    margin-inline: 20px;
+  }
+
+  .s-aca {
+    margin-bottom: 60px;
+  }
+
+  .imgDevicesRes {
+    padding: 25px;
+    width: 80%;
+  }
+
+  .s-syw {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .s-sywIconsRes {
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+.s-sywIconRes h2, .s-sywIconRes p{
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.sLogos img{
+  margin: 0;
+  padding: 15px;
+}
+
+
+
+}
