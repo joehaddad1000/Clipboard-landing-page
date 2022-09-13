@@ -22,10 +22,6 @@ h2 {
   font-weight: 600;
 }
 
-img {
-  width: 100%;
-}
-
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -114,6 +110,7 @@ p {
 
 .imagePC {
   margin-block: 20px;
+  width: 100%;
 }
 
 section article svg {
@@ -161,4 +158,8 @@ footer p {
 
 .image {
   margin-inline: 10px;
+}
+
+.imgDevicesRes {
+  width: 100%;
 }
